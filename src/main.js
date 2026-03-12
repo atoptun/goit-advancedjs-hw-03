@@ -1,8 +1,8 @@
-import './debug';
+import './js/debug';
 import iziToast from 'izitoast';
 
-import { getImagesByQuery } from './pixabay-api';
-import * as render from './render-functions';
+import { getImagesByQuery } from './js/pixabay-api';
+import * as render from './js/render-functions';
 
 const refs = {
   form: document.querySelector('.js-search-form'),
